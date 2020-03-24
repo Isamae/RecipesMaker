@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34fca6c5-2e2a-462e-ba8b-9a330a29d850" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RecipesMaker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecipesMaker.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,22 +81,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="436" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585021046462" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585020844294">
+    <state width="914" height="113" key="GridCell.Tab.0.bottom" timestamp="1585088957467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585020844294" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585020844293">
+    <state width="914" height="113" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585088957467" />
+    <state width="914" height="113" key="GridCell.Tab.0.center" timestamp="1585088957466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585020844293" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585020844293">
+    <state width="914" height="113" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585088957466" />
+    <state width="914" height="113" key="GridCell.Tab.0.left" timestamp="1585088957466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585020844293" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585020844293">
+    <state width="914" height="113" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585088957466" />
+    <state width="914" height="113" key="GridCell.Tab.0.right" timestamp="1585088957466">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585020844293" />
+    <state width="914" height="113" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585088957466" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1585020320886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -104,5 +105,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585020312942" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1585088677591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585088677591" />
   </component>
 </project>
