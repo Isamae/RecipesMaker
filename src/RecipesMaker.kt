@@ -5,8 +5,8 @@ fun main(args:Array<String>){
         opcion= readLine()
         when(opcion){
             "3" -> println("Saliendo")
-            "2" -> println("Haciendo Receta")
-            "1" -> println("Viendo Recetas")
+            "2" -> println("Viendo Recetas")
+            "1" -> println("Haciendo Receta")
             else -> println("Opción Equivocada")
         }
     }
