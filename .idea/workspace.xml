@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34fca6c5-2e2a-462e-ba8b-9a330a29d850" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/Ingrediente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Producto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Receta.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecipesMaker/RecipesMakerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipesMaker/RecipesMakerKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RecipesMaker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecipesMaker.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -81,22 +87,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="436" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585021046462" />
-    <state width="914" height="113" key="GridCell.Tab.0.bottom" timestamp="1585088957467">
+    <state width="914" height="111" key="GridCell.Tab.0.bottom" timestamp="1585183328028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="113" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585088957467" />
-    <state width="914" height="113" key="GridCell.Tab.0.center" timestamp="1585088957466">
+    <state width="914" height="111" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585183328028" />
+    <state width="914" height="111" key="GridCell.Tab.0.center" timestamp="1585183328028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="113" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585088957466" />
-    <state width="914" height="113" key="GridCell.Tab.0.left" timestamp="1585088957466">
+    <state width="914" height="111" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585183328028" />
+    <state width="914" height="111" key="GridCell.Tab.0.left" timestamp="1585183328027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="113" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585088957466" />
-    <state width="914" height="113" key="GridCell.Tab.0.right" timestamp="1585088957466">
+    <state width="914" height="111" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585183328027" />
+    <state width="914" height="111" key="GridCell.Tab.0.right" timestamp="1585183328028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="113" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585088957466" />
+    <state width="914" height="111" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585183328028" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1585020320886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
