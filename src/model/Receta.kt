@@ -1,14 +1,14 @@
 package model
 
 class Receta {
-    var ingredientes:ArrayList<Ingrediente> = ArrayList<Ingrediente>()
+    private var ingredientes:ArrayList<Ingrediente> = ArrayList<Ingrediente>()
     fun agregarIngrediente(ingrediente: Ingrediente){
-        ingredientes.plus(ingrediente)
+        ingredientes.add(ingrediente)
     }
     fun montrarIngredientes(){
         for (i:Ingrediente in ingredientes)
         {
-            println(i.nombre)
+            println("Ingrediente:"+ i.nombre+ " Cantidad: "+i.cantidad)
         }
     }
 }

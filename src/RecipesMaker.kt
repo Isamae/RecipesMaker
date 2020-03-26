@@ -2,19 +2,20 @@ import model.Ingrediente
 import model.Receta
 
 fun main(args:Array<String>){
+    var recetas:ArrayList<Receta> = ArrayList<Receta>()
     var opcion:String? = "0"
     while(opcion !="3" ){
         opcion= menu()
         when(opcion){
             "3" -> println("Saliendo")
-            "2" -> viewRecipe()
-            "1" -> makeRecipe()
+            "2" -> viewRecipe(recetas)
+            "1" -> recetas.add(makeRecipe())
             else -> println("Opción Equivocada")
         }
     }
 }
 fun makeRecipe():Receta{
-    var receta: Receta = Receta()
+    val receta: Receta = Receta()
     var opcion:String? = "0"
     do {
         opcion = menuIngredientes()
@@ -23,13 +24,13 @@ fun makeRecipe():Receta{
             {   println("Ingrese la cantidad de Agua en lt")
                 var cantidad:String? = readLine()
                 if (cantidad==null) cantidad="0"
-                receta.agregarIngrediente(Ingrediente("Agua",cantidad.toInt()))
+                receta.agregarIngrediente(Ingrediente("Agua",cantidad))
             }
             "2" ->
             {   println("Ingrese la cantidad de Leche en lt")
                 var cantidad:String? = readLine()
                 if (cantidad==null) cantidad="0"
-                receta.agregarIngrediente(Ingrediente("Leche",cantidad.toInt()))
+                receta.agregarIngrediente(Ingrediente("Leche",cantidad))
             }
             "3" ->
             {   var op:String? = menuCarne()
@@ -37,13 +38,13 @@ fun makeRecipe():Receta{
                 var cantidad:String? = readLine()
                 if (cantidad==null) cantidad="0"
                 if (op == "1"){
-                    receta.agregarIngrediente(Ingrediente("Res",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Res",cantidad))
                 }
                 else if(op == "2"){
-                    receta.agregarIngrediente(Ingrediente("Pollo",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Pollo",cantidad))
                 }
                 else if(op == "3"){
-                    receta.agregarIngrediente(Ingrediente("Chancho",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Chancho",cantidad))
                 }
             }
             "4" ->
@@ -52,13 +53,13 @@ fun makeRecipe():Receta{
                 var cantidad:String? = readLine()
                 if (cantidad==null) cantidad="0"
                 if (op == "1"){
-                    receta.agregarIngrediente(Ingrediente("Lechuga",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Lechuga",cantidad))
                 }
                 else if(op == "2"){
-                    receta.agregarIngrediente(Ingrediente("Tomates",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Tomates",cantidad))
                 }
                 else if(op == "3"){
-                    receta.agregarIngrediente(Ingrediente("Acelga",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Acelga",cantidad))
                 }
             }
             "5" ->
@@ -67,25 +68,25 @@ fun makeRecipe():Receta{
                 var cantidad:String? = readLine()
                 if (cantidad==null) cantidad="0"
                 if (op == "1"){
-                    receta.agregarIngrediente(Ingrediente("Fresa",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Fresa",cantidad))
                 }
                 else if(op == "2"){
-                    receta.agregarIngrediente(Ingrediente("Plátano",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Plátano",cantidad))
                 }
                 else if(op == "3"){
-                    receta.agregarIngrediente(Ingrediente("Uva",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Uva",cantidad))
                 }
                 else if(op == "4"){
-                    receta.agregarIngrediente(Ingrediente("Manzana",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Manzana",cantidad))
                 }
                 else if(op == "5"){
-                    receta.agregarIngrediente(Ingrediente("Naranja",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Naranja",cantidad))
                 }
                 else if(op == "6"){
-                    receta.agregarIngrediente(Ingrediente("Pera",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Pera",cantidad))
                 }
                 else if(op == "7"){
-                    receta.agregarIngrediente(Ingrediente("Cereza",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Cereza",cantidad))
                 }
             }
             "6" ->
@@ -94,23 +95,23 @@ fun makeRecipe():Receta{
                 var cantidad:String? = readLine()
                 if (cantidad==null) cantidad="0"
                 if (op == "1"){
-                    receta.agregarIngrediente(Ingrediente("Avena",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Avena",cantidad))
                 }
                 else if(op == "2"){
-                    receta.agregarIngrediente(Ingrediente("Trigo",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Trigo",cantidad))
                 }
                 else if(op == "3"){
-                    receta.agregarIngrediente(Ingrediente("Arroz",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Arroz",cantidad))
                 }
                 else if(op == "4"){
-                    receta.agregarIngrediente(Ingrediente("Maiz",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Maiz",cantidad))
                 }
             }
             "7" ->
             {   println("Ingrese la cantidad de Huevos")
                 var cantidad:String? = readLine()
                 if (cantidad==null) cantidad="0"
-                receta.agregarIngrediente(Ingrediente("Huevos",cantidad.toInt()))
+                receta.agregarIngrediente(Ingrediente("Huevos",cantidad))
             }
             "8" ->
             {   var op:String? = menuAceites()
@@ -118,22 +119,25 @@ fun makeRecipe():Receta{
                 var cantidad:String? = readLine()
                 if (cantidad==null) cantidad="0"
                 if (op == "1"){
-                    receta.agregarIngrediente(Ingrediente("Oliva",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Oliva",cantidad))
                 }
                 else if(op == "2"){
-                    receta.agregarIngrediente(Ingrediente("Palma",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Palma",cantidad))
                 }
                 else if(op == "3"){
-                    receta.agregarIngrediente(Ingrediente("Almendras",cantidad.toInt()))
+                    receta.agregarIngrediente(Ingrediente("Almendras",cantidad))
                 }
             }
         }
     }while (opcion != "9")
-
     return  receta
 }
-fun viewRecipe(){
-    println("Viendo Recetas")
+fun viewRecipe(recetas:ArrayList<Receta>){
+    for((i,receta) in recetas.withIndex()){
+        println("Viendo Receta ${i+1}")
+        receta.montrarIngredientes()
+    }
+
 }
 fun menu():String?{
     println("""             
@@ -147,17 +151,12 @@ fun menu():String?{
 }
 fun menuIngredientes():String?{
     println("""             
-                Hacer receta
-        Selecciona por categoría el ingrediente que buscas
-        1. Agua
-        2. Leche
-        3. Carne
-        4. Verduras
-        5. Frutas
-        6. Cereal
-        7. Huevos
-        8. Aceites
-        9 . Terminar Receta """)
+                Haciendo receta
+        Selecciona por categoría el ingrediente que buscas """)
+    var ingredientes:Array<String> = arrayOf("Agua","Leche","Carne","Verduras","Frutas","Cereal","Huevos","Aceites","Terminar Receta")
+    for((index, ingedientes) in ingredientes.withIndex()){
+        println(" ${index+1}. $ingedientes")
+    }
     var opcion:String? = readLine()
     return opcion
 }
